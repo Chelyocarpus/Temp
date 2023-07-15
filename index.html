@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bildervergleich</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+	
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .image {
+      flex: 1;
+      text-align: center;
+    }
+
+    img {
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+
+    .caption {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <h3>Vorheriger Zustand</h3>
+      <img src="https://i.imgur.com/ENeVKtV.jpg" alt="Bevor-Bild">
+    </div>
+    <div class="image">
+      <h3>Planungsphase</h3>
+      <img src="https://i.imgur.com/asYfnX0.png" alt="Planungsbild">
+    </div>
+    <div class="image">
+      <h3>Nach der Durchführung</h3>
+      <img src="https://i.imgur.com/mvn9zaO.jpg" alt="Danach-Bild">
+
+    </div>
+  </div>
+</body>
+</html>
